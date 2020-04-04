@@ -2,7 +2,7 @@
  - This is GitHub cusotem action.
  - Dynamically send an email with attachments.
 
-##Sample .yml
+## Sample .yml
 ~~~yaml
 - name: Send email
   uses: devellany/send-mailer@v1.0.0
