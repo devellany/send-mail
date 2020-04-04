@@ -1,5 +1,5 @@
 # send-mailer
- - This is GitHub cusotem action.
+ - This is GitHub custom action.
  - Dynamically send an email with attachments.
 
 ## Sample .yml
