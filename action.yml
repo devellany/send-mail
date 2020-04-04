@@ -1,0 +1,45 @@
+name: Send mailer
+description: Dynamically send an email with attachments.
+author: devellany
+branding:
+  icon: mail
+  color: purple
+inputs:
+  host:
+    description: Enter SMTP host.
+    required: true
+  port:
+    description: Enter SMTP port. (defaults to 465)
+    required: false
+    default: 465
+  account:
+    description: Enter SMTP host account.
+    required: true
+  password:
+    description: Enter SMTP host account password.
+    required: true
+  sender:
+    description: Enter sender name.
+    required: true
+  from:
+    description: Enter sender mail.
+    required: true
+  to:
+    description: Enter recipient emails and separated with 'comma'. (The prefix 'file://' if you want to read a file)
+    required: true
+  subject:
+    description: Enter the subject of the mail. (The prefix 'file://' if you want to read a file)
+    required: true
+  body:
+    description: Enter the body of the mail. (The prefix 'file://' if you want to read a file)
+    required: true
+  contentType:
+    description: Enter Content-Type HTTP header. (defaults to 'text/plain')
+    required: false
+    default: text/plain
+  attachments:
+    description: Attachment files are entered as an array. Required key 'path'. (The prefix 'file://' if you want to read a file)
+    required: false
+runs:
+  using: node12
+  main: dist/index.js

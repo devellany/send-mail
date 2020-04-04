@@ -1,0 +1,20 @@
+{
+  "name": "send-mail",
+  "description": "",
+  "main": "main.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devellany/send-mail.git"
+  },
+  "author": "devellany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devellany/send-mail/issues"
+  },
+  "homepage": "https://dico.me",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "nodemailer": "^6.4.6"
+  }
+}
