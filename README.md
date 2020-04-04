@@ -49,3 +49,6 @@
       contentType: text/html
       attachments: file://attachmets.json
 ```
+
+## Sample Repository
+[send-mail-sample](https://github.com/devellany/send-mail-sample)
