@@ -5,7 +5,7 @@
 ## Sample .yml
 ~~~yaml
 - name: Send email
-  uses: devellany/send-mailer@v1.0.0
+  uses: devellany/send-mailer@v1.0.2
   with:
     host: smtp.google.com
       # Optional port (defaults to 465)
@@ -36,7 +36,7 @@
  - attachments
  ```yaml
 - name: Send email
-  uses: devellany/send-mailer@v1.0.0
+  uses: devellany/send-mailer@v1.0.2
   with:
     host: smtp.google.com
       account: ${{secrets.ACCOUNT}}
