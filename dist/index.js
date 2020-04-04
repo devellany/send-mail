@@ -11856,7 +11856,7 @@ const sendMail = (() => {
     }
 
     function getBodyKey(contentType) {
-        return contentType === 'text/html' ? 'html' : 'body';
+        return contentType === 'text/html' ? 'html' : 'text';
     }
 
     function validAttachments(attachments) {
